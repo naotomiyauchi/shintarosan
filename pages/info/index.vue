@@ -12,12 +12,12 @@
           <table>
             <tbody>
               <tr>
-                <th>会社名</th>
-                <td>ダミー株式会社</td>
+                <th>店舗名</th>
+                <td>BAR BARABARU<br> BAR SHU-CLIA</td>
               </tr>
               <tr>
                 <th>所在地</th>
-                <td>〒000-0000<br> 東京都中央区銀座1丁目1番1号</td>
+                <td>熊本県熊本市中央区下通1丁目6-5 Modenaビル <br>熊本県熊本市中央区下通1丁目8-18 銀座ツインビル</td>
               </tr>
               <tr>
                 <th>設立</th>
@@ -25,7 +25,7 @@
               </tr>
               <tr>
                 <th>代表者名</th>
-                <td>山田 太郎</td>
+                <td>重永 信太郎</td>
               </tr>
               <tr>
                 <th>資本金</th>

@@ -3,12 +3,12 @@
     <div class="footer-content">
       <div class="footer-top">
         <div class="company-info">
-          <!--<small class="catchphrase mb-1">SEO対策に強いWeb制作会社</small>-->
-          <img src="~/assets/images/logo.svg" alt="MOTOKI LLC" class="h-6 w-auto relative right-1.5 mb-4"
-            style="filter: invert(100%);">
+          <small class="catchphrase mb-1">代表</small>
+          <h2 class="h-6 w-auto relative right-1.5 mb-4">重永 信太郎</h2>
           <div class="address-contact">
-            <p>〒000-0000<br>
-              東京都中央区銀座1丁目1番1号<br>
+            <p><br>
+              熊本県熊本市中央区下通1丁目6-5 Modenaビル<br>
+              熊本県熊本市中央区下通1丁目8-18 銀座ツインビル
               <!--<a href="https://motoki-design.co.jp/" target="_blank">https://motoki-design.co.jp/</a>-->
             </p>
           </div>
@@ -26,7 +26,7 @@
               </li>
               <li>
                 <NuxtLink to="/service">
-                  サービス
+                  メニュー/料金
                 </NuxtLink>
               </li>
               <li>
@@ -36,7 +36,7 @@
               </li>
               <li>
                 <NuxtLink to="/info">
-                  会社情報
+                  Bar情報
                 </NuxtLink>
               </li>
               <li>
@@ -51,22 +51,12 @@
               </li>
             </ul>
           </div>
-
-          <div class="footer-menu">
-            <div class="footer-menu-title font-bold mb-2">関連サービス</div>
-            <ul>
-              <li><a href="#" target="_blank" rel="noopener noreferrer">WordPress制作</a></li>
-              <li><a href="#" target="_blank" rel="noopener noreferrer">ブログ</a></li>
-              <li><a href="#" target="_blank" rel="noopener noreferrer">素材販売</a></li>
-            </ul>
-          </div>
-
         </div>
       </div>
 
       <div class=" footer-bottom">
         <p class="copyright">
-          <span lang="ja">©</span> 2021 ダミー株式会社
+          <span lang="ja">©</span> 2025 MiyauchiNaoto
         </p>
       </div>
     </div>
@@ -157,6 +147,10 @@
   @media (max-width: 960px) {
     .footer-top {
       flex-direction: column;
+    }
+
+    .footer-menu {
+      display: none;
     }
 
     .footer-links {

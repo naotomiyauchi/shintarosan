@@ -4,9 +4,9 @@
 
     <section class="services-section">
       <div class="content">
-        <small>サービス</small>
-        <h2>Services</h2>
-        <p>高速・セキュアなJamstack構成のサイトを提供します。</p>
+        <small>メニュー/料金</small>
+        <h2>Menu / Price</h2>
+        <p>詳しいメニューと料金はもっと見るをご覧ください</p>
         <div class="services-grid">
           <div class="service-card" v-for="(service, index) in services" :key="index">
             <div class="service-text">
@@ -23,8 +23,8 @@
 
 <script setup lang="ts">
 definePageMeta({
-  title: '会社概要 | Jamstack構成のWebサイト制作',
-  description: '当社の企業情報や理念をご紹介します。Jamstack技術を駆使した高性能なWebサイト制作でビジネスの成功を支援します。',
+  title: 'メニュー/料金 | BAR BARABARU',
+  description: 'メニュー/料金をご紹介します',
 });
 
 const route = useRoute();
@@ -42,12 +42,12 @@ type Service = {
 };
 
 const services: Service[] = [
-  { title: 'サーバー代0円', description: '' },
-  { title: '超高速表示', description: '' },
-  { title: '内部SEO最適化', description: '' },
-  { title: 'アクセス負荷対応', description: '' },
-  { title: '高セキュリティ', description: '' },
-  { title: 'ヘッドレスCMS', description: '' }
+  { title: '2時間飲み放題 3000円', description: '' },
+  { title: '週間イベント', description: '' },
+  { title: '各種ショット', description: '' },
+  { title: 'ボトル関連', description: '' },
+  { title: '単品ドリンク', description: '' },
+  { title: 'チャージ料金等', description: '' }
 ];
 </script>
 

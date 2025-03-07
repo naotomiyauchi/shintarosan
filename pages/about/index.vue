@@ -7,10 +7,10 @@
         <div class="content-column-left">
           <small class="ml-[0.2em]">私たちについて</small>
           <h2>About us</h2>
-          <p>培ったデザインと技術で<br class="br-sp">SEOに強いWebサイトを実現します。</p>
+          <p>Instagramなどの<br class="br-sp">SNSは下記のサイトにまとめてます</p>
         </div>
         <div class="content-column-right">
-          <img src="~/assets/images/about-us.jpg" alt="About us" />
+          <img src="~/assets/images/IMG_3481.jpg" alt="About us" />
         </div>
       </div>
     </section>
@@ -19,8 +19,8 @@
 
 <script setup lang="ts">
 definePageMeta({
-  title: '会社概要 | Jamstack構成のWebサイト制作',
-  description: '当社の企業情報や理念をご紹介します。Jamstack技術を駆使した高性能なWebサイト制作でビジネスの成功を支援します。',
+  title: '私たちについて | BAR BARABARU',
+  description: '私たちのSNSを紹介します',
 });
 
 const route = useRoute();

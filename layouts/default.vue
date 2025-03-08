@@ -12,8 +12,8 @@
 const route = useRoute()
 
 // リアクティブにメタ情報を取得
-const title = computed(() => route.meta?.title || 'MOTOKI LLC')
-const description = computed(() => route.meta?.description || 'Web制作会社')
+const title = computed(() => route.meta?.title || 'タイトルテスト')
+const description = computed(() => route.meta?.description || '信太郎さんテストWebサイト')
 const fullPath = computed(() => route.fullPath || '')
 
 // SEO メタ情報を設定する関数

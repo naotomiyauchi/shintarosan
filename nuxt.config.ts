@@ -29,6 +29,10 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/',
     head: {
+      meta: [
+      { name: 'description', content: '全体で使用するデフォルトの説明文をここに記載します。' },
+      { property: 'og:description', content: 'SNSで表示されるデフォルトの説明文'}
+      ],
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png' } , // ファビコンを追加
         { rel: 'apple-touch-icon', href: '/favicon-32x32.png' } // Apple用アイコン
